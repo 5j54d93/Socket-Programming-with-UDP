@@ -1,5 +1,6 @@
 # Socket Programming with UDP
 
+[![CodeQL](https://github.com/5j54d93/Socket-Programming-with-UDP/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/5j54d93/Socket-Programming-with-UDP/actions/workflows/codeql-analysis.yml)
 ![GitHub](https://img.shields.io/github/license/5j54d93/Socket-Programming-with-UDP)
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Socket-Programming-with-UDP)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Socket-Programming-with-UDP)
