@@ -1,5 +1,9 @@
 # Socket Programming with UDP
 
+![GitHub](https://img.shields.io/github/license/5j54d93/Socket-Programming-with-UDP)
+![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Socket-Programming-with-UDP)
+![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Socket-Programming-with-UDP)
+
 Using Python to write a simple UDP program：
 
 - Client send upper case string to Server
