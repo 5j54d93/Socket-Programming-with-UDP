@@ -1,14 +1,13 @@
-# Simple UDP
+# Socket Programming with UDP
 
-Using Python to write a simple UDP program that server side change a string into lower case and send back to client side.
+Using Python to write a simple UDP program：
 
-## Socket programming with UDP
-
-功能說明：在 Client 端傳送全大寫字串，從 Server 端回傳全小寫字串，並顯示在 Client 端的螢幕上。
+- Client send upper case string to Server
+- Server send lower case string back to Client
 
 以下說明連線、傳送、關閉流程：
 
-### Client
+## Client
 
 ```python
 # 為 Server 創建一個 UDP 封包
@@ -21,7 +20,7 @@ message = input('Input uppercase sentence:')
 clientSocket.sendto(str2Bytes,(serverName, serverPort))
 ```
 
-### Server
+## Server
 
 ```python
 # 創建一個 UDP 封包
@@ -36,7 +35,7 @@ print("The server is ready to receive")
 
 以下重複接收與回傳：
 
-#### Server
+### Server
 
 ```python
 # 讀進 UDP 封包，並獲得 Client 的 IP 和 port
@@ -49,7 +48,7 @@ modifiedMessage = message.lower()
 serverSocket.sendto(modifiedMessage, clientAddress)
 ```
 
-#### Client
+### Client
 
 ```python
 # 從回傳封包讀字串
