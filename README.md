@@ -63,4 +63,4 @@ clientSocket.close()
 
 ## License：MIT
 
-This package is [MIT licensed](https://github.com/5j54d93/Simple-UDP/blob/main/LICENSE).
+This package is [MIT licensed](https://github.com/5j54d93/Socket-Programming-with-UDP/blob/main/LICENSE).
